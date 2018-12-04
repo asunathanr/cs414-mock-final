@@ -12,39 +12,40 @@
 
 \usepackage{syntax}
 
+\newcommand{\spacedQuestion}[2][1] {
+  \question
+  {#2}
+  \vspace{\stretch{#1}}
+}
+
 \begin{document}
 
 \begin{questions}
 
-  \question Why do we study programming languages? (Give three reasons)
-  \vspace{\stretch{1}}
+  \spacedQuestion {
+    Why do we study programming languages? (Give three reasons)
+  }
 
-  \question One day your project manager decides that every new program your team produces is to be written in machine language, since computers don't understand C++ anyway. Other than referring them to a therapist, what are some things you could tell them to alleviate the situation?
-  \vspace{\stretch{1}}
 
-  \question Define programming language:
-  \vspace{\stretch{1}}
+  \spacedQuestion {
+    One day your project manager decides that every new program your team produces is to be written in machine language, since computers don't understand C++ anyway. Other than referring them to a therapist, what are some things you could tell them to alleviate the situation?
+  }
 
-  \question What is the fetch-execute cycle?
-  \vspace{\stretch{1}}
+  \spacedQuestion { Define programming language: }
 
-  \question What was the first high level language?
-  \vspace{\stretch{1}}
+  \spacedQuestion { What is the fetch-execute cycle? }
 
-  \question Who invented Fortran?
-  \vspace{\stretch{1}}
+  \spacedQuestion { What was the first high level language? }
 
-  \question When was Fortran invented?
-  \vspace{\stretch{1}}
+  \spacedQuestion { Who invented Fortran? }
 
-  \question What is the only high level structure in Fortran?
-  \vspace{\stretch{1}}
+  \spacedQuestion { When was Fortran invented? }
 
-  \question What was the purpose of the do-loop with regards to efficiency?
-  \vspace{\stretch{1}}
+  \spacedQuestion { What is the only high level structure in Fortran? }
 
-  \question Define a compiler
-  \vspace{\stretch{1}}
+  \spacedQuestion { What was the purpose of the do-loop with regards to efficiency? }
+
+  \spacedQuestion { Define a compiler }
 
   \pagebreak
 
@@ -194,13 +195,43 @@
   \vspace{\stretch{1}}
 
   \question What is the syntax of the rewrite rule?
+  \vspace{\stretch{1}}
 
-  \question Produce a parse tree of the below grammar using a top down technique:
+  \question {Produce a parse tree for the statement `b c f d f' with the below grammar using a top down technique:
     \begin{grammar}
-      <statement> $\rightarrow$ <expr> 
+      <S> $\rightarrow$ b <A> <S> | <B>
+
+      <A> $\rightarrow$ <A> <B> d | c
+
+      <B> $\rightarrow$ f
     \end{grammar}
+  }
+  \vspace{\stretch{1}}
 
+  \question Define parsing
+  \vspace{\stretch{1}}
 
+  \question List Chomsky's four types of grammar
+  \vspace{\stretch{1}}
+
+  \question Which types can today's programming languages parse?
+  \vspace{\stretch{1}}
+
+  \question Draw a link list structure for the following LISP code \\ (car (cons '(a b c) (cdr (cons '(a b) '(c d)))))
+
+  \question What would be the results of the following LISP commands?
+  \begin{parts}
+    \part (cons '(too) '(be or not (to be)))
+  \end{parts}
+
+  \question What ALGOL-60 feature does Jensen's device rely on?
+
+  \question Pascal Statistics
+  \begin{parts}
+    \part Year?
+    \part Who invented it?
+    \part What was Pascals contribution to programming languages?
+  \end{parts}
 
 \end{questions}
 
