@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.16)  3 DEC 2018 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.1.16)  3 DEC 2018 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -134,28 +134,22 @@ LaTeX Font Info:    ... okay on input line 21.
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 202.
+(Font)              <7> on input line 201.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 202.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 202.
- (c:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 202.
+(Font)              <5> on input line 201.
  [7]
 This exam contains 48 questions with 22 parts, 0 subparts, and 0 subsubparts.
 (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 1761 strings out of 492980
- 24060 string characters out of 6136207
+ 1744 strings out of 492980
+ 23777 string characters out of 6136207
  90146 words of memory out of 5000000
- 5398 multiletter control sequences out of 15000+600000
+ 5384 multiletter control sequences out of 15000+600000
  3986 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,19p,334b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,21p,334b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on test.pdf (7 pages, 45818 bytes).
+Output written on test.pdf (7 pages, 46118 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
